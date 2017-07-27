@@ -1,0 +1,20 @@
+{
+  "name": "nuget-publish",
+  "version": "1.0.0",
+  "description": "Publish npm packages to NuGet using package.json",
+  "main": "index.js",
+  "repository": "https://github.com/FezVrasta/nuget-publish",
+  "author": "Federico Zivolo <federico.zivolo@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "nuget-publish": "index.js"
+  },
+  "dependencies": {
+    "gitignore-to-glob": "^0.3.0",
+    "glob-fs": "^0.1.6",
+    "micromatch": "^3.0.3",
+    "nuget-in-path": "^2.0.1",
+    "object.omit": "^2.0.1",
+    "xml": "^1.0.1"
+  }
+}
