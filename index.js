@@ -11,7 +11,7 @@ const packlist = require('npm-packlist');
 
 const nuspecPath = path.resolve(process.cwd(), 'package.nuspec');
 
-function getSourcePath(file) {
+function getTargetPath(file) {
   return path.dirname(`content/Scripts/${file.replace('dist/', '')}`);
 }
 
@@ -22,7 +22,7 @@ packlist({ path: process.cwd() }).then(files => {
         file: {
           _attr: {
             src: file,
-            source: getSourcePath(file),
+            sotargeturce: getTargetPath(file),
           },
         },
       }
