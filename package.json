@@ -1,6 +1,6 @@
 {
   "name": "nuget-publish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Publish npm packages to NuGet using package.json",
   "main": "index.js",
   "repository": "https://github.com/FezVrasta/nuget-publish",

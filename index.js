@@ -22,7 +22,7 @@ packlist({ path: process.cwd() }).then(files => {
         file: {
           _attr: {
             src: file,
-            sotargeturce: getTargetPath(file),
+            target: getTargetPath(file),
           },
         },
       }
